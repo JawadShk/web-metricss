@@ -28,8 +28,13 @@ export function NavBar() {
       <Row>
         <Column className={styles.left}>
           <div className={styles.logo}>
-            <Icon size="lg">
-              <Image src="/images/logo/web-metrics-logo.png" alt="Logo" width={250}/>
+            <Icon>
+              <Image
+                src="/images/logo/web-metrics-logo.png"
+                alt="Logo"
+                width={200}
+                layout="responsive"
+              />
             </Icon>
             <Text className={styles.text}>web metrics</Text>
           </div>
