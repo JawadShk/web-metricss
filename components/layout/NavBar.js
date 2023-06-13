@@ -2,6 +2,7 @@ import { Icon, Text, Row, Column } from 'react-basics';
 import Link from 'next/link';
 import classNames from 'classnames';
 import Icons from 'components/icons';
+import logoImage from '../../public/images/flags/ad.png'; // Replace 'path/to/logo.png' with the actual path to your PNG logo file
 import ThemeButton from 'components/input/ThemeButton';
 import LanguageButton from 'components/input/LanguageButton';
 import ProfileButton from 'components/input/ProfileButton';
@@ -28,7 +29,8 @@ export function NavBar() {
         <Column className={styles.left}>
           <div className={styles.logo}>
             <Icon size="lg">
-              <Icons.Logo />
+              {/* <Icons.Logo /> */}
+              <img src={logoImage} alt="Logo" />
             </Icon>
             <Text className={styles.text}>web metrics</Text>
           </div>
