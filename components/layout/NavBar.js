@@ -32,7 +32,6 @@ export function NavBar() {
                 src="/images/logo/web-metrics-logo.png"
                 alt="Logo"
                 width={200}
-                layout="responsive"
               />
             <Text className={styles.text}>web metrics</Text>
           </div>

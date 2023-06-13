@@ -16,7 +16,6 @@ export function Header() {
                 src="/images/logo/web-metrics-logo.png"
                 alt="Logo"
                 width={200}
-                layout="responsive"
               />
             <Text>web metrics</Text>
           </Link>
