@@ -13,7 +13,7 @@ export function Header() {
         <Column>
           <Link href="https://umami.is" target="_blank" className={styles.title}>
             <Icon size="lg">
-              <Image src="/images/logo/web-metrics-logo.png" alt="Logo" />
+              <Image src="/images/logo/web-metrics-logo.png" alt="Logo" width={250}/>
             </Icon>
             <Text>web metrics</Text>
           </Link>

@@ -29,7 +29,7 @@ export function NavBar() {
         <Column className={styles.left}>
           <div className={styles.logo}>
             <Icon size="lg">
-              <Image src="/images/logo/web-metrics-logo.png" alt="Logo" />
+              <Image src="/images/logo/web-metrics-logo.png" alt="Logo" width={250}/>
             </Icon>
             <Text className={styles.text}>web metrics</Text>
           </div>
