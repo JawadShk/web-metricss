@@ -12,14 +12,12 @@ export function Header() {
       <Row>
         <Column>
           <Link href="https://umami.is" target="_blank" className={styles.title}>
-          <Icon>
               <Image
                 src="/images/logo/web-metrics-logo.png"
                 alt="Logo"
                 width={200}
                 layout="responsive"
               />
-            </Icon>
             <Text>web metrics</Text>
           </Link>
         </Column>
