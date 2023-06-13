@@ -3,7 +3,7 @@ import Link from 'next/link';
 import classNames from 'classnames';
 // import Icons from 'components/icons';
 import Image from 'next/image';
-import mypic from '../../public/images/flags/ad.png';
+// import mypic from '../../public/images/flags/ad.png';
 import ThemeButton from 'components/input/ThemeButton';
 import LanguageButton from 'components/input/LanguageButton';
 import ProfileButton from 'components/input/ProfileButton';
@@ -31,7 +31,7 @@ export function NavBar() {
           <div className={styles.logo}>
             <Icon size="lg">
               {/* <Icons.Logo /> */}
-              <Image src={mypic} alt="Logo" />
+              <Image src="/images/flags/ad.png" alt="Logo" />
             </Icon>
             <Text className={styles.text}>web metrics</Text>
           </div>

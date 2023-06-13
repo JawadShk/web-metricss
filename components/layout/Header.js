@@ -5,7 +5,7 @@ import ThemeButton from 'components/input/ThemeButton';
 import SettingsButton from 'components/input/SettingsButton';
 // import Icons from 'components/icons';
 import Image from 'next/image';
-import mypic from '../../public/images/flags/ad.png';
+// import mypic from '../../public/images/flags/ad.png';
 import styles from './Header.module.css';
 
 export function Header() {
@@ -16,7 +16,7 @@ export function Header() {
           <Link href="https://umami.is" target="_blank" className={styles.title}>
             <Icon size="lg">
               {/* <Icons.Logo /> */}
-              <Image src={mypic} alt="Logo" />
+              <Image src="/images/flags/ad.png" alt="Logo" />
             </Icon>
             <Text>web metrics</Text>
           </Link>
