@@ -3,9 +3,7 @@ import Link from 'next/link';
 import LanguageButton from 'components/input/LanguageButton';
 import ThemeButton from 'components/input/ThemeButton';
 import SettingsButton from 'components/input/SettingsButton';
-// import Icons from 'components/icons';
 import Image from 'next/image';
-// import mypic from '../../public/images/flags/ad.png';
 import styles from './Header.module.css';
 
 export function Header() {
@@ -15,8 +13,7 @@ export function Header() {
         <Column>
           <Link href="https://umami.is" target="_blank" className={styles.title}>
             <Icon size="lg">
-              {/* <Icons.Logo /> */}
-              <Image src="/images/flags/ad.png" alt="Logo" />
+              <Image src="/images/logo/web-metrics-logo.png" alt="Logo" />
             </Icon>
             <Text>web metrics</Text>
           </Link>
