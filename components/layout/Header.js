@@ -9,7 +9,7 @@ import styles from './Header.module.css';
 export function Header() {
   return (
     <header className={styles.header}>
-      <Row>
+      {/* <Row>
         <Column>
           <Link href="https://umami.is" target="_blank" className={styles.title}>
             <Icon size="lg">
@@ -23,7 +23,7 @@ export function Header() {
           <LanguageButton tooltipPosition="bottom" menuPosition="bottom" />
           <SettingsButton />
         </Column>
-      </Row>
+      </Row> */}
     </header>
   );
 }
