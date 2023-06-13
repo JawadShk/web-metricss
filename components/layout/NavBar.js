@@ -30,7 +30,7 @@ export function NavBar() {
             <Icon size="lg">
               <Icons.Logo />
             </Icon>
-            <Text className={styles.text}>umami</Text>
+            <Text className={styles.text}>web metrics</Text>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {

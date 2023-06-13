@@ -9,13 +9,13 @@ import styles from './Header.module.css';
 export function Header() {
   return (
     <header className={styles.header}>
-      {/* <Row>
+      <Row>
         <Column>
           <Link href="https://umami.is" target="_blank" className={styles.title}>
             <Icon size="lg">
               <Icons.Logo />
             </Icon>
-            <Text>umami</Text>
+            <Text>web metrics</Text>
           </Link>
         </Column>
         <Column className={styles.buttons}>
@@ -23,7 +23,7 @@ export function Header() {
           <LanguageButton tooltipPosition="bottom" menuPosition="bottom" />
           <SettingsButton />
         </Column>
-      </Row> */}
+      </Row>
     </header>
   );
 }
