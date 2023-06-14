@@ -27,12 +27,20 @@ export function NavBar() {
       <Row>
         <Column className={styles.left}>
           <div className={styles.logo}>
-              <Image
+              {/* <Image
                 src="/images/logo/web-metrics-logo.png"
                 alt="Logo"
                 width={200}
               />
-            <Text className={styles.text}>web metrics</Text>
+            <Text className={styles.text}>web metrics</Text> */}
+             <Icon size="lg">
+             <Image
+                src="/images/logo/web-metrics-favicon"
+                alt="Logo"
+                // width={200}
+              />
+            </Icon>
+          <Text className={styles.text}>web metrics</Text>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {

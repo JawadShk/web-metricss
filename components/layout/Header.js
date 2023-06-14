@@ -11,13 +11,23 @@ export function Header() {
     <header className={styles.header}>
       <Row>
         <Column>
-          <Link href="#" target="_blank" className={styles.title}>
+          {/* <Link href="#" target="_blank" className={styles.title}>
               <Image
                 src="/images/logo/web-metrics-logo.png"
                 alt="Logo"
                 width={200}
               />
             <Text>web metrics</Text>
+          </Link> */}
+          <Link href="#" target="_blank" className={styles.title}>
+            <Icon size="lg">
+              <Image
+                src="/images/logo/web-metrics-favicon"
+                alt="Logo"
+                // width={200}
+              />
+            </Icon>
+            <Text> Web <span style={{ color: '#ffc107' }}>Metrics</span></Text>
           </Link>
         </Column>
         <Column className={styles.buttons}>
