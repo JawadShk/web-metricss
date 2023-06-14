@@ -35,12 +35,13 @@ export function NavBar() {
             <Text className={styles.text}>web metrics</Text> */}
              <Icon size="lg">
              <Image
-                src="/images/logo/web-metrics-favicon"
+                src="/images/logo/web-metrics-favicon.png"
                 alt="Logo"
                 // width={200}
               />
             </Icon>
-          <Text className={styles.text}>web metrics</Text>
+          {/* <Text className={styles.text}>web metrics</Text> */}
+          <Text className={styles.text}> Web <span className={styles.span}>Metrics</span></Text>
           </div>
           <div className={styles.links}>
             {links.map(({ url, label }) => {

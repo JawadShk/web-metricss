@@ -22,12 +22,12 @@ export function Header() {
           <Link href="#" target="_blank" className={styles.title}>
             <Icon size="lg">
               <Image
-                src="/images/logo/web-metrics-favicon"
+                src="/images/logo/web-metrics-favicon.png"
                 alt="Logo"
                 // width={200}
               />
             </Icon>
-            <Text> Web <span style={{ color: '#ffc107' }}>Metrics</span></Text>
+            <Text className={styles.text}> Web <span className={styles.span}>Metrics</span></Text>
           </Link>
         </Column>
         <Column className={styles.buttons}>
