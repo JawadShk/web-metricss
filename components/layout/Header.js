@@ -11,7 +11,7 @@ export function Header() {
     <header className={styles.header}>
       <Row>
         <Column>
-          <Link href="https://umami.is" target="_blank" className={styles.title}>
+          <Link href="#" target="_blank" className={styles.title}>
               <Image
                 src="/images/logo/web-metrics-logo.png"
                 alt="Logo"

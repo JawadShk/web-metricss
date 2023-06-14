@@ -14,7 +14,8 @@ import useApi from 'hooks/useApi';
 import { setUser } from 'store/app';
 import { setClientAuthToken } from 'lib/client';
 import useMessages from 'hooks/useMessages';
-import Logo from 'assets/logo.svg';
+// import Logo from 'assets/logo.svg';
+import Image from 'next/image';
 import styles from './LoginForm.module.css';
 
 export function LoginForm() {
@@ -36,10 +37,12 @@ export function LoginForm() {
 
   return (
     <div className={styles.login}>
-      <Icon className={styles.icon} size="xl">
-        <Logo />
-      </Icon>
-      <div className={styles.title}>umami</div>
+      <Image
+          src="/images/logo/web-metrics-logo.png"
+          alt="Logo"
+          width={200}
+        />
+      {/* <div className={styles.title}></div> */}
       <Form className={styles.form} onSubmit={handleSubmit} error={getMessage(error)}>
         <FormRow label={formatMessage(labels.username)}>
           <FormInput name="username" rules={{ required: formatMessage(labels.required) }}>
