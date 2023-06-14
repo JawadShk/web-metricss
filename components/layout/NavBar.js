@@ -1,7 +1,6 @@
 import { Icon, Text, Row, Column } from 'react-basics';
 import Link from 'next/link';
 import classNames from 'classnames';
-// import Icons from 'components/icons';
 import Image from 'next/image';
 import ThemeButton from 'components/input/ThemeButton';
 import LanguageButton from 'components/input/LanguageButton';
