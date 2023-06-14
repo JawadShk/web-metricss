@@ -1,4 +1,4 @@
-import { Icon, Text, Row, Column } from 'react-basics';
+import {Text, Row, Column } from 'react-basics';
 import Link from 'next/link';
 import classNames from 'classnames';
 import Image from 'next/image';

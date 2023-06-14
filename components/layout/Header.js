@@ -1,4 +1,4 @@
-import { Column, Icon, Row, Text } from 'react-basics';
+import { Column, Row, Text } from 'react-basics';
 import Link from 'next/link';
 import LanguageButton from 'components/input/LanguageButton';
 import ThemeButton from 'components/input/ThemeButton';
