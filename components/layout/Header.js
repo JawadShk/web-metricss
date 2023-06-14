@@ -24,7 +24,7 @@ export function Header() {
               <Image
                 src="/images/logo/web-metrics-favicon.png"
                 alt="Logo"
-                // width={200}
+                width={30}
               />
             </Icon>
             <Text className={styles.text}> Web <span className={styles.span}>Metrics</span></Text>

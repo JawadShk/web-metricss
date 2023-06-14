@@ -37,7 +37,7 @@ export function NavBar() {
              <Image
                 src="/images/logo/web-metrics-favicon.png"
                 alt="Logo"
-                // width={200}
+                width={30}
               />
             </Icon>
           {/* <Text className={styles.text}>web metrics</Text> */}
