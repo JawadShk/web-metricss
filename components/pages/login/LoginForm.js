@@ -7,6 +7,7 @@ import {
   TextField,
   PasswordField,
   SubmitButton,
+  Icon,
 } from 'react-basics';
 import { useRouter } from 'next/router';
 import useApi from 'hooks/useApi';
