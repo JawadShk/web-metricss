@@ -35,11 +35,19 @@ export function LoginForm() {
 
   return (
     <div className={styles.login}>
-      <Image
+      {/* <Image
           src="/images/logo/web-metrics-logo.png"
           alt="Logo"
           width={200}
-        />
+        /> */}
+        <Icon className={styles.icon} size="xl">
+          <Image
+              src="/images/logo/web-metrics-favicon.png"
+              alt="Logo"
+              width={30}
+            />
+        </Icon>
+        <div className={styles.title}>Web Metrics</div>
       <Form className={styles.form} onSubmit={handleSubmit} error={getMessage(error)}>
         <FormRow label={formatMessage(labels.username)}>
           <FormInput name="username" rules={{ required: formatMessage(labels.required) }}>
