@@ -5,7 +5,12 @@ export function EmptyPlaceholder({ message, children }) {
   return (
     <Flexbox direction="column" alignItems="center" justifyContent="center" gap={60} height={600}>
       <Icon size="xl">
-        <Logo />
+        {/* <Logo /> */}
+        <Image
+            src="/images/logo/web-metrics-favicon.png"
+            alt="Logo"
+            width={30}
+          />
       </Icon>
       <Text size="lg">{message}</Text>
       <div>{children}</div>
