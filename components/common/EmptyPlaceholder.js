@@ -1,5 +1,6 @@
 import { Icon, Text, Flexbox } from 'react-basics';
 import Logo from 'assets/logo.svg';
+import Image from 'next/image';
 
 export function EmptyPlaceholder({ message, children }) {
   return (
