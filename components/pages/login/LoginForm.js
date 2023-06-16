@@ -48,7 +48,7 @@ export function LoginForm() {
               width={30}
             />
         </Icon>
-        <div className={styles.title}>Web Metrics</div>
+        <div className={styles.title}>Web <span className={styles.span}>Metrics</span></div>
       <Form className={styles.form} onSubmit={handleSubmit} error={getMessage(error)}>
         <FormRow label={formatMessage(labels.username)}>
           <FormInput name="username" rules={{ required: formatMessage(labels.required) }}>
